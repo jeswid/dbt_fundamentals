@@ -13,7 +13,6 @@ The repository includes the following:
 - **dbt_project.yml**: Configuration file for DBT projects.
 - **models/**: Contains SQL files representing DBT models created during the course.
 - **tests/**: Unit tests for validating data models and transformations.
-- **docs/**: Documentation on the models, tests, and project setup.
 
 ### How to Use
 1. **Clone the Repository**:
@@ -36,11 +35,3 @@ The repository includes the following:
     ```bash
     dbt test
     ```
-
-5. **Generate Documentation**:
-    Generate the DBT documentation for models and dependencies:
-    ```bash
-    dbt docs generate
-    dbt docs serve
-    ```
-
